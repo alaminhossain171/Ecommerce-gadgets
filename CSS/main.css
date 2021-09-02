@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousel-item {
+  padding: 20px 40px;
+}
+.btn-bg {
+  background-color: black;
+  color: #fff;
+}
+
+.slider {
+  background-image: url(../img/bg-2.png), url(../img/bg-1.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left bottom, center;
+}
+
+.clsImg {
+  max-width: 70%;
+
+  width: 70%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card {
+  outline: none;
+  border: none;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,0.2);
+}
+
+.category{
+    margin-top: 5em;
+}
+.box{
+    width: 10%;
+    height: 8px;
+    background-color: #FFA430;
+    margin-bottom: 3em;
+    border-radius: 5px;
+}
+
+.item-bottom{
+    position: relative;
+  margin-top: 5em;
+}
+.product-box{
+    height: 200px;
+    width: 200px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,0.2);
+}
